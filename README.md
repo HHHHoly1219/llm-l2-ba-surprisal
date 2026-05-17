@@ -18,26 +18,4 @@ This repository open-sources a novel paradigm that leverages the autoregressive 
 2. **H2 (Context-Driven Coercion):** Pragmatic contexts strongly facilitate target structures, drastically reducing surprisal and driving robust structural preference reversals.
 3. **H3 (Constructional Gestalt):** Sentence-level surprisal significantly outperforms Word-level (first-token) metrics, proving that the *ba* construction operates as a multi-token gestalt rather than an instantaneous syntactic divergence.
 
----
 
-## 📂 Repository Structure
-
-```text
-.
-├── data/                       # The 800-sentence controlled evaluation dataset
-│   ├── BA_With_Context_200.csv
-│   ├── SVO_With_Context_200.csv
-│   ├── BA_Without_Context_200.csv
-│   └── SVO_Without_Context_200.csv
-│
-├── scripts/                    # Source code for reproducibility
-│   ├── 1_macbert_baseline.py   # CGEC baseline evaluation script
-│   ├── 2_llm_surprisal.py      # Autoregressive surprisal extraction for 23 LLMs
-│   └── 3_statistical_analysis.py # Accuracy calculation, T-tests, and plotting
-│
-├── results/                    # Generated outputs and visualizations
-│   ├── raw_surprisal_logs/     # Raw CSV outputs from all 23 evaluated LLMs
-│   └── figures/                # High-resolution charts (Boxplots, Scatter, Dumbbell)
-│
-├── requirements.txt            # Python dependencies
-└── README.md
