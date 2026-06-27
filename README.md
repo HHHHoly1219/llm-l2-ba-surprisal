@@ -77,15 +77,14 @@ We test three questions:
 ├── scripts/
 │   ├── all_models_test.py
 │   ├── macbert_baseline.py
-│   ├── results.py
-│   ├── tokenizer_diagnostic_colab.py
-│   └── t5_correction_sanity_check_colab.py
+│   ├── experiment_results.py
+│   ├── tokenizer_diagnostic.py
+│   └── t5_correction_check.py
 │
 ├── results/
 │   ├── figures/
-│   ├── raw_surprisal_logs/
+│   ├── llm_surprisal_results/
 │   ├── macbert_baseline_results/
-│   ├── tokenizer_diagnostic_results/
 │   └── t5_correction_sanity_results/
 │
 ├── README.md
