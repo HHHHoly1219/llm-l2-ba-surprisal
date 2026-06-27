@@ -226,7 +226,7 @@ This script evaluates 400 full contextualized sentences. Each input is the prece
 ### 5. Run tokenizer diagnostic for H3
 
 ```bash
-python scripts/tokenizer_diagnostic_colab.py
+python scripts/tokenizer_diagnostic.py
 ```
 
 This script checks whether the first model token of each target continuation begins with the expected first Chinese character. It does not change the surprisal values; it only checks whether the first-token metric is linguistically interpretable.
@@ -234,7 +234,7 @@ This script checks whether the first model token of each target continuation beg
 ### 6. Run optional T5 correction sanity check
 
 ```bash
-python scripts/t5_correction_sanity_check_colab.py
+python scripts/t5_correction_check.py
 ```
 
 This script runs a T5-based Chinese correction model as an auxiliary surface-correction sanity check. It is not used to validate grammaticality. It checks whether another edit-based model systematically rewrites BA/SVO alternatives.
