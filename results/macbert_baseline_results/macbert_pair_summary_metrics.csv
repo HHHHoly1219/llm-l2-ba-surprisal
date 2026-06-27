@@ -1,4 +1,0 @@
-﻿metric_scope,N_pairs,pair_pragmatic_correction_accuracy,pair_nonpreferred_miss_rate,pair_nonpreferred_detection_rate,preferred_acceptance_rate
-all_200_pairs,200,0.01,0.97,0.03,0.975
-BA-preferred_pairs,100,0.01,0.99,0.01,0.99
-SVO-preferred_pairs,100,0.01,0.95,0.05,0.96

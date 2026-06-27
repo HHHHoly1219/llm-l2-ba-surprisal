@@ -1,4 +1,0 @@
-﻿metric_scope,N,TP_infeli_flagged,FN_infeli_accepted_miss,TN_felicitous_accepted,FP_felicitous_flagged,binary_error_detection_accuracy,miss_rate_on_infeli,detection_accuracy_on_infeli,false_positive_rate_on_felicitous,acceptance_rate_on_felicitous
-all_400_contextual_target_sentences,400,6,194,195,5,0.5025,0.97,0.03,0.025,0.975
-BA-preferred,200,1,99,99,1,0.5,0.99,0.01,0.01,0.99
-SVO-preferred,200,5,95,96,4,0.505,0.95,0.05,0.04,0.96
