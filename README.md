@@ -252,9 +252,9 @@ The `results/figures/` folder contains:
 * H2 preference reversal plot.
 * H3 sentence-level vs. first-token scatter plot.
 
-### Raw logs
+### llm surprisal results
 
-The `results/raw_surprisal_logs/` folder contains raw surprisal scores for each evaluated LLM.
+The `results/llm_surprisal_results/` folder contains raw surprisal scores for each evaluated LLM.
 
 ### Sanity results
 
@@ -264,6 +264,3 @@ The `results/t5_correction_sanity_results/` folder contains the auxiliary T5 cor
 
 The `results/macbert_baseline_results/` folder contains sentence-level and pair-level MacBERT outputs.
 
-### Tokenization diagnostic
-
-The `results/tokenizer_diagnostic_results/` folder contains the first-token diagnostic used to interpret H3.
