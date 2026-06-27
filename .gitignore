@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===============================
+# Project-specific ignores
+# ===============================
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Local notebooks or temporary files
+Untitled*.ipynb
+*.tmp
+temp/
+
+# Secrets / API keys / access tokens
+*.key
+*_token*
+huggingface_token*
+hf_token*
+openai_api_key*
+anthropic_api_key*
+
+# Local model and cache directories
+.cache/
+huggingface_cache/
+transformers_cache/
+models/
+checkpoints/
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Local compressed backups
+*.zip
+*.tar
+*.tar.gz
+*.7z
