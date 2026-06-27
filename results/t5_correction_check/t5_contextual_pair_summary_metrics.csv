@@ -1,0 +1,8 @@
+﻿scope,N_pairs,preferred_acceptance_rate,nonpreferred_detection_rate,nonpreferred_miss_rate,pair_edit_accept_accuracy,strict_construction_level_correction_rate,strict_construction_level_correction_N
+all_contextualized_pairs,200,0.895,0.17,0.83,0.095,0.0,0
+BA-preferred_pairs,100,0.93,0.24,0.76,0.18,0.0,0
+SVO-preferred_pairs,100,0.86,0.1,0.9,0.01,0.0,0
+subcondition=习惯性动作与泛指,50,0.86,0.08,0.92,0.02,0.0,0
+subcondition=叙述经历和日程,50,0.86,0.12,0.88,0.0,0.0,0
+subcondition=物理状态改变,50,0.92,0.1,0.9,0.04,0.0,0
+subcondition=空间位移,50,0.94,0.38,0.62,0.32,0.0,0
